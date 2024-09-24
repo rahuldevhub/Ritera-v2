@@ -7,6 +7,7 @@ import { BrowserRouter, Routes ,Route } from 'react-router-dom';
 import Pplbehind from './Page/Pplbehind';
 import Customized from './Page/Customized';
 import Packages from './Page/Packages';
+import Header from './Components/header/Header';
 
 
 

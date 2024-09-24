@@ -10,10 +10,10 @@ const Whywe = () => {
   }, []);
   return (
     <div className='Whywe' id='Whywe'>
+          <Header />
 
       <div className='whywe-bgimg'>
         <div className='whywe-blackdrop'>
-          <Header />
 
           <div className='whywe-title'>Why we ?</div>
         </div>

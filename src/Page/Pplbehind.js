@@ -23,10 +23,10 @@ const Pplbehind = () => {
   }, []);
   return (
     <div className='Pplbehind' id='Pplbehind'>
+          <Header />
 
       <div className='Pplbehind-bgimg'>
         <div className='Pplbehind-blackdrop'>
-          <Header />
 
           <div className='Pplbehind-title'>People Behind Ritera</div>
         </div>

@@ -53,17 +53,17 @@
 
     .landing-title {
         font-size: 2rem;
-        padding-top: 8rem;
+        padding-top: 4rem;
     }
 
     .landing-subtitle {
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     .landing-button {
         border-radius: .5rem;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         width: 18rem;
     }
 }
@@ -189,7 +189,7 @@
 
     }
     .landingpage-service h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         padding-top: 2rem;
         padding-bottom: 1rem;
     }
@@ -224,7 +224,7 @@
     }
 
     .landingpage-package h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         padding-top: 2rem;
         padding-bottom: .5rem;
     }
@@ -303,41 +303,38 @@
 @media only screen and (max-width: 992px){
     .landingpage-customizedroyalty-blackdrop {
 
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        background-image: url(../Assets/customizedbg.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
         width: 100%;
         border-radius: 1rem;
     
     }
     .landingpage-customizedroyalty-insidecontent {
         padding: 1rem;
-        border-radius: .5rem;
+        border-radius: .4rem;
     }
     .landingpage-customizedroyalty-content {
         margin-left: 2rem;
         margin-right: 2rem;
     }
     .landingpage-customizedroyalty h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        padding-bottom: .4rem;
     }
     .landingpage-customizedroyalty p {
-        font-size: .8rem;
+        font-size: .9rem;
         padding-bottom: 0rem;
-        text-align: center;
+        text-align: justify;
     }
     .landingpage-customizedroyalty-button {
-        width: 12rem;
-        height: 2.5rem;
-        font-size: .8em;
+        width: 100%;
         border-radius: .5rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 1rem;
     }
 }
 
@@ -479,15 +476,15 @@
     }
 
     .landingpage-hookredirect-content p {
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
 
     .landingpage-hookredirect-buttoncol button {
         border-radius: .5rem;
-        padding-top: 4px;
-        padding-bottom: 4px;
-        width: 18rem;
-        font-size: .8rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        font-size: 1rem;
     }
     
 }

@@ -10,10 +10,10 @@ const Customized = () => {
   }, []);
   return (
     <div className='Customized' id='Customized'>
+          <Header />
 
       <div className='customized-bgimg'>
         <div className='customized-blackdrop'>
-          <Header />
           <div className='customized-title'>Customize your package</div>
 
         </div>

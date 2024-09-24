@@ -18,7 +18,7 @@ const Landingpage = () => {
 
       <div className='landingpage-bgimg'>
         <div className='landingpage-blackdrop' >
-          {/* <Header /> */}
+          <Header />
           <div className='landing-content'>
             <p className='landing-title'>Empower your story <br /> Self Publish with confidence</p>
             <p className='landing-subtitle'>At Ritera, We're passionate about transforming ideas <br /> into stories and visions into masterpiece</p>
@@ -75,7 +75,7 @@ const Landingpage = () => {
               <div className='landingpage-customizedroyalty-blackdrop'>
                 <div className='landingpage-customizedroyalty-insidecontent'>
                   <h2>Customized Package</h2>
-                  <p> As an aspiring publishing house, Ritera stands apart with our unique approach and unwavering commitment to authors' satisfaction. </p>
+                  <p> As an aspiring publishing house, Ritera stands apart with our unique approach and unwavering commitment. </p>
                   <Link to={'/customize-package'}><button className='landingpage-customizedroyalty-button'> Learn more</button></Link>
                 </div>
               </div>
