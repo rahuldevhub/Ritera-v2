@@ -79,8 +79,8 @@
 @media only screen and (max-width: 992px) {
     
     .Getintouch {
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
         padding-bottom: 5rem;
     
     }
@@ -94,8 +94,8 @@
         margin-top: 2rem;
     }
     .socialmedia-img {
-        height: 4rem;
-        width: 6.5rem;
+        height: 5rem;
+        width: 7rem;
     }
     
     .Contactusform {
