@@ -145,10 +145,11 @@
     }
 
     .Whywe-button {
-        width: 18rem;
-        height: 2.5rem;
-        font-size: .9em;
+        width: 100%;
         border-radius: .5rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 1rem;
     }
     .landingpage-col-centering {
         text-align: center;

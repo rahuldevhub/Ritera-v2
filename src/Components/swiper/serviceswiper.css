@@ -48,13 +48,13 @@
     padding-bottom: 1.5rem;
     
 }
-.card-content h3{
+.service-card-content h3{
     font-size: 2rem;
     font-family: "Merriweather", serif;
     font-weight: 400;
     padding: 0 !important;
 }
-.card-content p{
+.service-card-content p{
     text-align: justify;
 }
 .service-card-icon{
@@ -87,7 +87,7 @@
         padding-bottom: 1rem;
     }
     
-    .card-content h3{
+    .service-card-content h3{
         font-size: 1.6rem;
     }
     
@@ -97,5 +97,7 @@
         padding: 1rem;
         margin-bottom: 1.5rem;
     }
-    
+    .service-card-content p{
+      font-size: .9rem;
+    }
 }

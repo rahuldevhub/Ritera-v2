@@ -20,7 +20,6 @@ const Customized = () => {
       </div>
 
       <div className='customized-content-bg'>
-
         <div className='customized-content'>
           <div className='whywe-subcontent-description'>At Ritera, our passion for literature drives everything we do. As an aspiring publishing house, we're dedicated to provide premium services and deliverables, ensuring that every author's work receives the attention and care it deserves. We  wholeheartedly believe in the power of literature to enrich lives and make the world a better place. With our unwavering commitment to excellence and the recent partnership with Ratix, we are thrilled to expand our offerings and access a wealth of talented designers and professionals. Together, we're excited to continue our journey of fostering creativity, getting authors under the spotlight ,connecting readers with captivating stories, and making a meaningful impact in the world of  literature</div>
 
@@ -105,8 +104,9 @@ const Customized = () => {
       </div>
 
       <div className='customized-content-bg2'>
+      <div className='customized-content'>
         <h3>Post - Publishing</h3>
-        <Row>
+        <Row >
           <Col lg="6" md="6" sm="1" >
 
             <div class="custom-control custom-checkbox" className='customized-col3' >
@@ -126,7 +126,7 @@ const Customized = () => {
               <label class="custom-control-label" for="customCheck1" className='customized-option-name3'>Social Media Promotions</label>
             </div>
           </Col>
-          <Col lg="6" md="6" sm="1">
+          <Col lg="6" md="6" sm="1" >
             <div class="custom-control custom-checkbox" className='customized-col4' >
               <input type="checkbox" class="custom-control-input" id="customCheck1" className='customized-input-box'></input>
               <label class="custom-control-label" for="customCheck1" className='customized-option-name3'>Amazon Prime</label>
@@ -148,11 +148,11 @@ const Customized = () => {
         <button className='customized-submit-button'> Submit</button>
 
       </div>
-
-      <div className='customized-getintouch'>
-        <Getintouch/>
-
       </div>
+
+      {/* <div className='customized-getintouch'>
+        <Getintouch/>
+      </div> */}
 
     </div>
   )

@@ -32,12 +32,16 @@ const Toppackage = () => {
 
                                 </div>
                                 <ul className='package-features'>
-                                    <li>All service in previous</li>
+                                <li>All service in previous</li>
                                     <li>Advance Cover Design</li>
                                     <li>Advance Interior Design</li>
-                                    <li>International PaperBack Distribution (India)</li>
+                                    <li>International PaperBack Distribution</li>
                                     <li>E-Book Placement</li>
                                     <li>Amazon A+ listing</li>
+                                    <li>Amazon Prime (6 Mon)</li>
+                                    <li>Amazon Ads (3 Mon)</li>
+                                    <li>Kindle Promotions</li>
+                                    <li>Book Reviews</li>
 
                                 </ul>
                                 {/* <Link to={'/packages'}><button className='seeallpackages'>See all Features</button></Link> */}
@@ -59,11 +63,17 @@ const Toppackage = () => {
 
 
                                     <ul className='package-features'>
-                                        <li>All service in previous</li>
+                                    <li>All service in previous</li>
                                         <li>Complimentry Proof reading or Copy editing</li>
                                         <li>Customized Cover Design</li>
                                         <li>Advance interior Design</li>
                                         <li>International Paperback distribution</li>
+                                        <li>E-Book Placement</li>
+                                        <li>Kindle Promotion</li>
+                                        <li>Social Media Promotion (Post Publishing)</li>
+                                        <li>Book Reviews</li>
+                                        <li>Author Copies</li>
+                                        <li>Author Video</li>
 
                                     </ul>
                                     {/* <Link to={'/packages'}><button className='seeallpackages'>See all Features</button></Link> */}
@@ -86,13 +96,18 @@ const Toppackage = () => {
 
 
                                     <ul className='package-features'>
-                                        <li>Personal Publishing Manager</li>
+                                    <li>Personal Publishing Manager</li>
                                         <li>Proff Reading (40k words)</li>
                                         <li>Copy Editing (15k words)</li>
                                         <li>Customized Cover Design</li>
                                         <li>International Paperback distribution</li>
                                         <li>E-book Placements</li>
                                         <li>Author Vedio on website</li>
+                                        <li>Kindle Promotion</li>
+                                        <li>Print media Promotion</li>
+                                        <li>Social Media Promotion (Pre and Post Publishing)</li>
+                                        <li>Marketing Plan suggestion</li>
+                                        <li>Publishing Event Handling</li>
 
                                     </ul>
 
@@ -135,12 +150,18 @@ const Toppackage = () => {
 
                                     </div>
                                     <ul className='package-features'>
-                                        <li>All service in previous</li>
-                                        <li>Advance Cover Design</li>
-                                        <li>Advance Interior Design</li>
-                                        <li>International PaperBack Distribution (India)</li>
-                                        <li>E-Book Placement</li>
-                                        <li>Amazon A+ listing</li>
+                                    <li>All service in previous</li>
+                                    <li>All service in previous</li>
+                                    <li>Advance Cover Design</li>
+                                    <li>Advance Interior Design</li>
+                                    <li>International PaperBack Distribution</li>
+                                    <li>E-Book Placement</li>
+                                    <li>Amazon A+ listing</li>
+                                    <li>Amazon Prime (6 Mon)</li>
+                                    <li>Amazon Ads (3 Mon)</li>
+                                    <li>Kindle Promotions</li>
+                                    <li>Book Reviews</li>
+
 
                                     </ul>
                                     {/* <Link to={'/packages'}><button className='seeallpackages'>See all Features</button></Link> */}
@@ -162,11 +183,17 @@ const Toppackage = () => {
 
 
                                         <ul className='package-features'>
-                                            <li>All service in previous</li>
-                                            <li>Complimentry Proof reading or Copy editing</li>
-                                            <li>Customized Cover Design</li>
-                                            <li>Advance interior Design</li>
-                                            <li>International Paperback distribution</li>
+                                        <li>All service in previous</li>
+                                        <li>Complimentry Proof reading or Copy editing</li>
+                                        <li>Customized Cover Design</li>
+                                        <li>Advance interior Design</li>
+                                        <li>International Paperback distribution</li>
+                                        <li>E-Book Placement</li>
+                                        <li>Kindle Promotion</li>
+                                        <li>Social Media Promotion (Post Publishing)</li>
+                                        <li>Book Reviews</li>
+                                        <li>Author Copies</li>
+                                        <li>Author Video</li>
 
                                         </ul>
                                         {/* <Link to={'/packages'}><button className='seeallpackages'>See all Features</button></Link> */}
@@ -189,13 +216,19 @@ const Toppackage = () => {
 
 
                                         <ul className='package-features'>
-                                            <li>Personal Publishing Manager</li>
-                                            <li>Proff Reading (40k words)</li>
-                                            <li>Copy Editing (15k words)</li>
-                                            <li>Customized Cover Design</li>
-                                            <li>International Paperback distribution</li>
-                                            <li>E-book Placements</li>
-                                            <li>Author Vedio on website</li>
+                                        <li>Personal Publishing Manager</li>
+                                        <li>Proff Reading (40k words)</li>
+                                        <li>Copy Editing (15k words)</li>
+                                        <li>Customized Cover Design</li>
+                                        <li>International Paperback distribution</li>
+                                        <li>E-book Placements</li>
+                                        <li>Author Vedio on website</li>
+                                        <li>Kindle Promotion</li>
+                                        <li>Print media Promotion</li>
+                                        <li>Social Media Promotion (Pre and Post Publishing)</li>
+
+                                        <li>Marketing Plan suggestion</li>
+                                        <li>Publishing Event Handling</li>
 
                                         </ul>
 

@@ -24,7 +24,7 @@ const Serviceswiper = () => {
 
                         <Card className='servicecard' >
                             <Card.Body >
-                                <div className='card-content'>
+                                <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
                                     <h3 className='service-card-title'>Proof Reading </h3>
                                     <p className='service-card-description'>Having a well-polished manuscript is crucial. Our team of expert proofreaders is dedicated to enhancing your work by meticulously correcting grammatical, spelling, and punctuation errors. Additionally, we ensure that your document maintains consistent formatting and style. </p>
@@ -34,7 +34,7 @@ const Serviceswiper = () => {
 
                         <Card className='servicecard' >
                             <Card.Body>
-                                <div className='card-content'>
+                                <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
                                     <h3 className='service-card-title'>Marketing </h3>
                                     <p className='service-card-description'>We excel in both traditional and digital marketing strategies, conducting thorough marketing analysis that considers your book’s genre and theme. A dedicated marketing consultant will be assigned to ensure your book receives the attention it deserves to shine.
@@ -46,7 +46,7 @@ const Serviceswiper = () => {
 
                         <Card className='servicecard' >
                             <Card.Body>
-                                <div className='card-content'>
+                                <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
                                     <h3 className='service-card-title'>Free Articles </h3>
                                     <p className='service-card-description'>Ritera presents an exclusive opportunity: If you have the talent to write articles, you can publish them on the Ritera website for free. This special service is available to all skilled writers looking to share their work with a wider audience.</p>
@@ -62,7 +62,7 @@ const Serviceswiper = () => {
 
                         <Card className='servicecard' >
                             <Card.Body >
-                                <div className='card-content'>
+                                <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
                                     <h3 className='service-card-title'>Proof Reading </h3>
                                     <p className='service-card-description'>Having a well-polished manuscript is crucial. Our team of expert proofreaders is dedicated to enhancing your work by meticulously correcting grammatical, spelling, and punctuation errors. Additionally, we ensure that your document maintains consistent formatting and style. </p>
@@ -72,7 +72,7 @@ const Serviceswiper = () => {
 
                         <Card className='servicecard' >
                             <Card.Body>
-                                <div className='card-content'>
+                                <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
                                     <h3 className='service-card-title'>Marketing </h3>
                                     <p className='service-card-description'>We excel in both traditional and digital marketing strategies, conducting thorough marketing analysis that considers your book’s genre and theme. A dedicated marketing consultant will be assigned to ensure your book receives the attention it deserves to shine.
@@ -84,7 +84,7 @@ const Serviceswiper = () => {
 
                         <Card className='servicecard' >
                             <Card.Body>
-                                <div className='card-content'>
+                                <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
                                     <h3 className='service-card-title'>Free Articles </h3>
                                     <p className='service-card-description'>Ritera presents an exclusive opportunity: If you have the talent to write articles, you can publish them on the Ritera website for free. This special service is available to all skilled writers looking to share their work with a wider audience.</p>
@@ -115,7 +115,7 @@ const Serviceswiper = () => {
                         <SwiperSlide>
                             <Card className='servicecard' >
                                 <Card.Body >
-                                    <div className='card-content'>
+                                    <div className='service-card-content'>
                                         <img src={prooficon} className='service-card-icon'></img>
                                         <h3 className='service-card-title'>Proof Reading </h3>
                                         <p className='service-card-description'>Having a well-polished manuscript is crucial. Our team of expert proofreaders is dedicated to enhancing your work by meticulously correcting grammatical, spelling, and punctuation errors. Additionally, we ensure that your document maintains consistent formatting and style. </p>
@@ -127,7 +127,7 @@ const Serviceswiper = () => {
                         <SwiperSlide>
                         <Card className='servicecard' >
                             <Card.Body>
-                                <div className='card-content'>
+                                <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
                                     <h3 className='service-card-title'>Marketing </h3>
                                     <p className='service-card-description'>We excel in both traditional and digital marketing strategies, conducting thorough marketing analysis that considers your book’s genre and theme. A dedicated marketing consultant will be assigned to ensure your book receives the attention it deserves to shine.
@@ -141,7 +141,7 @@ const Serviceswiper = () => {
                         <SwiperSlide>
                         <Card className='servicecard' >
                             <Card.Body>
-                                <div className='card-content'>
+                                <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
                                     <h3 className='service-card-title'>Free Articles </h3>
                                     <p className='service-card-description'>Ritera presents an exclusive opportunity: If you have the talent to write articles, you can publish them on the Ritera website for free. This special service is available to all skilled writers looking to share their work with a wider audience.</p>
@@ -155,7 +155,7 @@ const Serviceswiper = () => {
                         <SwiperSlide>
                         <Card className='servicecard' >
                             <Card.Body >
-                                <div className='card-content'>
+                                <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
                                     <h3 className='service-card-title'>Proof Reading </h3>
                                     <p className='service-card-description'>Having a well-polished manuscript is crucial. Our team of expert proofreaders is dedicated to enhancing your work by meticulously correcting grammatical, spelling, and punctuation errors. Additionally, we ensure that your document maintains consistent formatting and style. </p>
@@ -167,7 +167,7 @@ const Serviceswiper = () => {
                         <SwiperSlide>
                         <Card className='servicecard' >
                             <Card.Body>
-                                <div className='card-content'>
+                                <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
                                     <h3 className='service-card-title'>Marketing </h3>
                                     <p className='service-card-description'>We excel in both traditional and digital marketing strategies, conducting thorough marketing analysis that considers your book’s genre and theme. A dedicated marketing consultant will be assigned to ensure your book receives the attention it deserves to shine.
@@ -181,7 +181,7 @@ const Serviceswiper = () => {
                         <SwiperSlide>
                         <Card className='servicecard' >
                             <Card.Body>
-                                <div className='card-content'>
+                                <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
                                     <h3 className='service-card-title'>Free Articles </h3>
                                     <p className='service-card-description'>Ritera presents an exclusive opportunity: If you have the talent to write articles, you can publish them on the Ritera website for free. This special service is available to all skilled writers looking to share their work with a wider audience.</p>

@@ -54,8 +54,11 @@
 }
 
 .whywe-subcontent-img {
+    object-fit: cover;
     height: 15rem;
     width: 25rem;
+    border-radius: 1rem;
+    border: solid .4rem white;
 }
 
 .whywe-subcontent-col2 {
@@ -118,12 +121,12 @@
 
     .whywe-blackdrop {
         background-color: #000000ab;
-        height: 250px;
+        height: 180px;
     }
 
     .whywe-title {
         font-size: 2rem;
-        padding-top: 2.5rem;
+        padding-top: 4rem;
     }
 
     .whywe-content {
@@ -142,6 +145,7 @@
 
     .whywe-subcontent-description {
         font-size: .8rem;
+        padding-top: .6rem;
     }
 
     .whywe-subcontent-img {

@@ -154,9 +154,9 @@ const Landingpage = () => {
         </Row>
       </div>
 
-      <div className='landingpage-getintouch'>
+      {/* <div className='landingpage-getintouch'>
         <Getintouch />
-      </div>
+      </div> */}
 
 
 

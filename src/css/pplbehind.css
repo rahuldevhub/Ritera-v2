@@ -112,16 +112,11 @@
     padding-right: 1rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    
+    justify-content: center; 
 }
-.team-card{
-    justify-content: center;
 
-}
 .card-content {
-    text-align: center;
-
-
+    text-align-last: center;
 }
 .team-card-icon{
     height: 8rem;
@@ -254,6 +249,16 @@
         margin-right: 2rem;
         
     }
+    .teamcard {
+
+        width: 18rem;
+       margin: 2rem;
+       margin-bottom: 0 !important;
+        border: solid 2px ;
+        border-color: #D4A373;
+      padding: 1rem;
+        justify-content: center; 
+    }
     .Pplbehind-hookredirect-content {
         background-color: #000000d0;
         padding: 2rem;
@@ -267,10 +272,10 @@
     }
 
     .Pplbehind-hookredirect-button button {
-        border-radius: .2rem;
-        padding-top: 6px;
-        padding-bottom: 6px;
-        width: 18rem;
-        font-size: .8rem;
+        border-radius: .5rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        font-size: 1rem;
     }
 }

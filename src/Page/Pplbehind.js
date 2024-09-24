@@ -3,7 +3,7 @@ import '../css/pplbehind.css'
 import { Row, Col } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card';
 import prooficon from '../Assets/study.png'
-
+import { Link } from 'react-router-dom';
 import Header from '../Components/header/Header'
 import sideimg from '../Assets/landingpagewhywe.jpg'
 import Getintouch from '../Components/Getintouch';
@@ -213,10 +213,7 @@ const Pplbehind = () => {
                     </Row>
                 </div>
             </Swiper>
-
             }
-
-
 
       <div className='Pplbehind-hookredirect'>
         <Row className='Pplbehind-hookredirect-content'>
@@ -225,9 +222,9 @@ const Pplbehind = () => {
           </Col>
 
           <Col lg="12" md='6' sm="4" className=' Pplbehind-hookredirect-button'>
-            {/* <Link to={'/careers'}> */}
+            <Link to={'/aboutus'}>
             <button>Explore</button>
-            {/* </Link> */}
+            </Link>
           </Col  >
         </Row>
       </div>
