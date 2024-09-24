@@ -121,8 +121,8 @@
     }
 
     .landingpage-whywe-leftimg {
-        height: 14rem;
-        width: 18rem;
+        height: auto;
+        width: 100%;
         object-fit: cover;
         margin-top: 2rem;
         border-radius: .5rem;
@@ -130,6 +130,7 @@
     }
 
     .landingpage-whywe h2 {
+        text-align: left;
         font-size: 1.6em;
         line-height: 2rem !important;
         padding-top: 2rem;
@@ -148,6 +149,9 @@
         height: 2.5rem;
         font-size: .9em;
         border-radius: .5rem;
+    }
+    .landingpage-col-centering {
+        text-align: center;
     }
 }
 

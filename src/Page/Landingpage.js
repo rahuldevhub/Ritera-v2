@@ -22,7 +22,7 @@ const Landingpage = () => {
           <div className='landing-content'>
             <p className='landing-title'>Empower your story <br /> Self Publish with confidence</p>
             <p className='landing-subtitle'>At Ritera, We're passionate about transforming ideas <br /> into stories and visions into masterpiece</p>
-            <button className='landing-button'> Get Start</button>
+           <a href='#landingpage-package'><button className='landing-button'> Get Start</button></a>
           </div>
         </div>
 
@@ -38,7 +38,7 @@ const Landingpage = () => {
             </Col>
 
             <Col lg="6" md="6" sm="1" className='landingpage-col-centering'>
-              <div>
+              <div >
                 <h2>Why us ?</h2>
                 <p><b>Confused about choosing the best publishing house for your book?</b> Look no further! At Ritera Publishing, we offer an unparalleled publishing experience with exclusive services you won’t find anywhere else. Our complete motto is to make the publishing process smoother and comfortable for you. With the shared love we both have for literature,
                   Ritera decided to offer some special services exclusively!</p>
@@ -60,7 +60,7 @@ const Landingpage = () => {
 
       </div>
 
-      <div className='landingpage-package'>
+      <div className='landingpage-package' id='landingpage-package'>
         <div className='landingpage-package-content'>
           <h2>Packages</h2>
           <Package />
