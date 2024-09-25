@@ -12,8 +12,11 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-// import './serviceswiper.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import char1 from '../Assets/pplbehind/char1.jpg'
+import char2 from '../Assets/pplbehind/char2.png'
+import char3 from '../Assets/pplbehind/char3.png'
+import char4 from '../Assets/pplbehind/char4.png'
 
 const Pplbehind = () => {
   const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 992px)' })
@@ -38,14 +41,14 @@ const Pplbehind = () => {
         <div className='Pplbehind-indivualcontent1'>
           <Row className='Pplbehind-subcontent-row'>
             <Col lg="6" md="6" sm="1" className='Pplbehind-subcontent-col1'>
-              <img src={sideimg} className='Pplbehind-subcontent-img'></img>
+              <img src={char1} className='Pplbehind-subcontent-img'></img>
 
             </Col>
             <Col lg="6" md="6" sm="1" >
               <p className='Pplbehind-subcontent-title'>Rahul</p>
               <p className='Pplbehind-subcontent-subtitle'>Co-Founder & CTO</p>
               <p className='Pplbehind-subcontent-description'>
-                As an aspiring publishing house, Ritera stands apart with our unique approach and unwavering commitment to authors' satisfaction. While we hold respect for other publishers in the field, we embrace different ideologies and possess a talented crew with a distinct working style. At Ritera, we promise that you'll never be left with doubts or dissatisfaction.
+              Mr. Rahul, the esteemed co-founder of Ratix Info Tech, brings extensive global client experience to the table. Ratix Info Tech has now formed a strategic alliance with Ritera Publishing to offer seamless support to authors and streamline workflow management. With a highly skilled design and editing team, Ritera Publication &  Rahul and his Ratix Info Tech ensure that your works receive the finest designs.
               </p>
             </Col>
           </Row>
@@ -55,14 +58,14 @@ const Pplbehind = () => {
 
           <Row className='Pplbehind-subcontent-row'>
             <Col lg="6" md="6" sm="1" className='Pplbehind-subcontent-col1'>
-              <img src={sideimg} className='Pplbehind-subcontent-img'></img>
+              <img src={char2} className='Pplbehind-subcontent-img'></img>
 
             </Col>
             <Col lg="6" md="6" sm="1" >
               <p className='Pplbehind-subcontent-title'>RJ Ananthi</p>
-              <p className='Pplbehind-subcontent-subtitle'>Founder of The Book Show</p>
+              <p className='Pplbehind-subcontent-subtitle'>Actress & Reviewer</p>
               <p className='Pplbehind-subcontent-description'>
-                As an aspiring publishing house, Ritera stands apart with our unique approach and unwavering commitment to authors' satisfaction. While we hold respect for other publishers in the field, we embrace different ideologies and possess a talented crew with a distinct working style. At Ritera, we promise that you'll never be left with doubts or dissatisfaction.
+              RJ Ananthi, renowned for her insightful and engaging book reviews on “The Book Show” YouTube channel. With her extensive knowledge and passion for literature, RJ Ananthi’s reviews are a testament to her expertise and dedication. This partnership enhances our publication’s reach, offering authors a unique opportunity to have their books reviewed by a respected voice in the literary community.  
               </p>
             </Col>
           </Row>
@@ -72,7 +75,7 @@ const Pplbehind = () => {
         <div className='Pplbehind-indivualcontent'>
           <Row className='Pplbehind-subcontent-row'>
             <Col lg="6" md="6" sm="1" className='Pplbehind-subcontent-col1'>
-              <img src={sideimg} className='Pplbehind-subcontent-img'></img>
+              <img src={char3} className='Pplbehind-subcontent-img'></img>
 
             </Col>
             <Col lg="6" md="6" sm="1" >
@@ -89,7 +92,7 @@ const Pplbehind = () => {
         <div className='Pplbehind-indivualcontent'>
           <Row className='Pplbehind-subcontent-row'>
             <Col lg="6" md="6" sm="1" className='Pplbehind-subcontent-col1'>
-              <img src={sideimg} className='Pplbehind-subcontent-img'></img>
+              <img src={char4} className='Pplbehind-subcontent-img'></img>
 
             </Col>
             <Col lg="6" md="6" sm="1" >

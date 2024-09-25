@@ -24,7 +24,7 @@ const Header = () => {
    
           <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/aboutus">About</Nav.Link>
-            <Nav.Link href="/allservice">Article</Nav.Link>
+            <Nav.Link href="/customize-package">Customize</Nav.Link>
             {/* <Nav.Link href="#Testimonials"> Testimonials</Nav.Link> */}
             {/* <Nav.Link href="/careers"> Careers</Nav.Link> */}
             <Nav.Link href="/packages">Packages</Nav.Link>

@@ -21,7 +21,7 @@ const Customized = () => {
 
       <div className='customized-content-bg'>
         <div className='customized-content'>
-          <div className='whywe-subcontent-description'>At Ritera, our passion for literature drives everything we do. As an aspiring publishing house, we're dedicated to provide premium services and deliverables, ensuring that every author's work receives the attention and care it deserves. We  wholeheartedly believe in the power of literature to enrich lives and make the world a better place. With our unwavering commitment to excellence and the recent partnership with Ratix, we are thrilled to expand our offerings and access a wealth of talented designers and professionals. Together, we're excited to continue our journey of fostering creativity, getting authors under the spotlight ,connecting readers with captivating stories, and making a meaningful impact in the world of  literature</div>
+          <div className='whywe-subcontent-description'>Upon submitting your preferences, our marketing specialist will present you with a tailored package, detailing its pricing and benefits.</div>
 
           <Row>
             <Col lg="6" md="6" sm="1" className='customized-col'>

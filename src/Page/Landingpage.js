@@ -74,8 +74,8 @@ const Landingpage = () => {
 <div className='landingpage-col-centering'>
               <div className='landingpage-customizedroyalty-blackdrop'>
                 <div className='landingpage-customizedroyalty-insidecontent'>
-                  <h2>Customized Package</h2>
-                  <p> As an aspiring publishing house, Ritera stands apart with our unique approach and unwavering commitment. </p>
+                  <h2>Customized your own Package</h2>
+                  <p> Customize your package by choosing the options that meet your needs. </p>
                   <Link to={'/customize-package'}><button className='landingpage-customizedroyalty-button'> Learn more</button></Link>
                 </div>
               </div>

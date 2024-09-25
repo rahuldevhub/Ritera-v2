@@ -8,7 +8,7 @@
 
 .Pplbehind-blackdrop {
     background-color: #000000ab;
-    height: 600px;
+    height: 500px;
 
 }
 
@@ -18,7 +18,7 @@
     font-family: "Merriweather", serif;
     font-weight: 400;
     color: white;
-    padding-top: 10rem;
+    padding-top: 15rem;
     text-align: center;
 }
 
@@ -27,25 +27,25 @@
 }
 
 .Pplbehind-indivualcontent1 {
-    padding-top: 2.5rem;
-    padding-bottom: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     padding-left: 6rem;
     padding-right: 6rem;
-    background: white !important;
+    background: #fff7ec !important;
 }
 
 .Pplbehind-indivualcontent {
-    padding-top: 2.5rem;
+    padding-top: 4rem;
     margin-left: 6rem;
     margin-right: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
 }
 
 .Pplbehind-indivualcontent2 {
     background: #A57A5B;
     color: white;
-    padding-top: 2.5rem;
-    padding-bottom: 6rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     padding-left: 6rem;
     padding-right: 6rem;
 }
@@ -79,8 +79,9 @@
 
 .Pplbehind-subcontent-img {
 
-    height: 15rem;
-    width: 25rem;
+    object-fit: cover;
+    border: solid .4rem #D4A373;
+    border-radius: 1.5rem;
 }
 
 .Pplbehind-subcontent-col1 {
@@ -115,9 +116,9 @@
     justify-content: center; 
 }
 
-.card-content {
+/* .card-content {
     text-align-last: center;
-}
+} */
 .team-card-icon{
     height: 8rem;
     width: 8rem;
@@ -192,19 +193,19 @@
 
 @media only screen and (max-width: 992px) {
     .Pplbehind-bgimg {
-        object-fit: cover;
-        background-position: initial;
+        /* object-fit: cover; */
+        background-position: top;
         background-size: cover;
     }
 
     .Pplbehind-blackdrop {
         background-color: #000000ab;
-        height: 250px;
+        height: 200px;
     }
 
     .Pplbehind-title {
         font-size: 2rem;
-        padding-top: 2.5rem;
+        padding-top: 4.5rem;
     }
     .Pplbehind-indivualcontent1 {
         padding: 2rem;
@@ -239,7 +240,7 @@
     }
     .Pplbehind-subcontent-img {
 
-        height: 11rem;
+        height: 20rem;
         width: 16rem;
     }
     .Pplbehind-content{
