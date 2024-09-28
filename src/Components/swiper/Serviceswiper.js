@@ -64,8 +64,8 @@ const Serviceswiper = () => {
                             <Card.Body >
                                 <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
-                                    <h3 className='service-card-title'>Proof Reading </h3>
-                                    <p className='service-card-description'>Having a well-polished manuscript is crucial. Our team of expert proofreaders is dedicated to enhancing your work by meticulously correcting grammatical, spelling, and punctuation errors. Additionally, we ensure that your document maintains consistent formatting and style. </p>
+                                    <h3 className='service-card-title'>Beta reading </h3>
+                                    <p className='service-card-description'>Beta readers are mandatory in the assessment of manuscripts before publishing. Ritera's beta readers will provide constructive feedback on the plot, character development, pacing, and overall readability. Additionally, our beta readers will impart valuable insights, urging authors to consider their feedback thoughtfully and providing a report to facilitate any necessary revisions.</p>
                                 </div>
                             </Card.Body>
                         </Card>
@@ -74,8 +74,8 @@ const Serviceswiper = () => {
                             <Card.Body>
                                 <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
-                                    <h3 className='service-card-title'>Marketing </h3>
-                                    <p className='service-card-description'>We excel in both traditional and digital marketing strategies, conducting thorough marketing analysis that considers your book’s genre and theme. A dedicated marketing consultant will be assigned to ensure your book receives the attention it deserves to shine.
+                                    <h3 className='service-card-title'>Copy writing </h3>
+                                    <p className='service-card-description'>The copywriters at Ritera bear significant responsibilities. They meticulously edit and proofread your manuscript to ensure clarity and accuracy. They craft compelling and engaging descriptions for various platforms. Additionally, they collaborate closely with designers, marketers, and authors to maintain a consistent voice and message across all materials. When it comes to writing a blog for you, our copywriters apply SEO strategies to maximize reach and visibility
 
                                     </p>
                                 </div>
@@ -86,8 +86,8 @@ const Serviceswiper = () => {
                             <Card.Body>
                                 <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
-                                    <h3 className='service-card-title'>Free Articles </h3>
-                                    <p className='service-card-description'>Ritera presents an exclusive opportunity: If you have the talent to write articles, you can publish them on the Ritera website for free. This special service is available to all skilled writers looking to share their work with a wider audience.</p>
+                                    <h3 className='service-card-title'>International </h3>
+                                    <p className='service-card-description'>     By partnering with global distributors, Ritera guarantees that your book reaches retailers, distributors, and libraries worldwide</p>
                                 </div>
                             </Card.Body>
                         </Card>
@@ -157,8 +157,8 @@ const Serviceswiper = () => {
                             <Card.Body >
                                 <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
-                                    <h3 className='service-card-title'>Proof Reading </h3>
-                                    <p className='service-card-description'>Having a well-polished manuscript is crucial. Our team of expert proofreaders is dedicated to enhancing your work by meticulously correcting grammatical, spelling, and punctuation errors. Additionally, we ensure that your document maintains consistent formatting and style. </p>
+                                    <h3 className='service-card-title'>Beta reading </h3>
+                                    <p className='service-card-description'>Beta readers are mandatory in the assessment of manuscripts before publishing. Ritera's beta readers will provide constructive feedback on the plot, character development, pacing, and overall readability. Additionally, our beta readers will impart valuable insights, urging authors to consider their feedback thoughtfully and providing a report to facilitate any necessary revisions.</p>
                                 </div>
                             </Card.Body>
                         </Card>
@@ -169,8 +169,8 @@ const Serviceswiper = () => {
                             <Card.Body>
                                 <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
-                                    <h3 className='service-card-title'>Marketing </h3>
-                                    <p className='service-card-description'>We excel in both traditional and digital marketing strategies, conducting thorough marketing analysis that considers your book’s genre and theme. A dedicated marketing consultant will be assigned to ensure your book receives the attention it deserves to shine.
+                                    <h3 className='service-card-title'>Copy writing </h3>
+                                    <p className='service-card-description'>The copywriters at Ritera bear significant responsibilities. They meticulously edit and proofread your manuscript to ensure clarity and accuracy. They craft compelling and engaging descriptions for various platforms. Additionally, they collaborate closely with designers, marketers, and authors to maintain a consistent voice and message across all materials. When it comes to writing a blog for you, our copywriters apply SEO strategies to maximize reach and visibility
 
                                     </p>
                                 </div>
@@ -183,8 +183,8 @@ const Serviceswiper = () => {
                             <Card.Body>
                                 <div className='service-card-content'>
                                     <img src={prooficon} className='service-card-icon'></img>
-                                    <h3 className='service-card-title'>Free Articles </h3>
-                                    <p className='service-card-description'>Ritera presents an exclusive opportunity: If you have the talent to write articles, you can publish them on the Ritera website for free. This special service is available to all skilled writers looking to share their work with a wider audience.</p>
+                                    <h3 className='service-card-title'>International </h3>
+                                    <p className='service-card-description'>     By partnering with global distributors, Ritera guarantees that your book reaches retailers, distributors, and libraries worldwide</p>
                                 </div>
                             </Card.Body>
                         </Card>

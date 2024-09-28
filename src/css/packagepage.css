@@ -40,3 +40,32 @@
 .packages-getintouch{
     background: #F5F1E0;
 }
+@media only screen and (max-width: 992px) {
+    .Packages-bgimg {
+        /* object-fit: cover; */
+        background-position: top;
+        background-size: cover;
+    }
+
+    .Packages-blackdrop {
+        background-color: #000000ab;
+        height: 200px;
+    }
+
+    .Packages-title {
+        font-size: 2rem;
+        padding-top: 1.5rem;
+    }
+    .packages-content {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    .Packages h3 {
+        font-size: 1.5rem;
+        text-align: left;
+        padding-top: 1rem;
+        padding-bottom: .1rem;
+    }
+
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/packagepage.css'
-import Header from '../Components/header/Header'
+// import Header from '../Components/header/Header'
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import Getintouch from '../Components/Getintouch';
@@ -11,7 +11,7 @@ const Packages = () => {
 
       <div className='Packages-bgimg'>
         <div className='Packages-blackdrop'>
-          <Header />
+          {/* <Header /> */}
           <div className='Packages-title'>Packages</div>
         </div>
       </div>

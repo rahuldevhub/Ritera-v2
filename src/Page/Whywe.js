@@ -2,10 +2,8 @@ import React, { useEffect } from 'react'
 import Header from '../Components/header/Header'
 import '../css/whywe.css'
 import { Row, Col } from 'react-bootstrap'
-import sideimg from '../Assets/landingpagewhywe.jpg'
 import Getintouch from '../Components/Getintouch'
 import { Link } from 'react-router-dom';
-
 import whywe1 from '../Assets/whywe/whywe1.jpg'
 import whywe2 from '../Assets/whywe/whywe2.png'
 import whywe3 from '../Assets/whywe/whywe3.jpg'
@@ -18,12 +16,12 @@ const Whywe = () => {
   }, []);
   return (
     <div className='Whywe' id='Whywe'>
-      <Header />
+      {/* <Header /> */}
 
       <div className='whywe-bgimg'>
         <div className='whywe-blackdrop'>
 
-          <div className='whywe-title'>Why we ?</div>
+          <div className='whywe-title'>Why us ?</div>
         </div>
       </div>
 
@@ -145,9 +143,9 @@ const Whywe = () => {
       </div>
 
 
-      {/* <div className='whywe-getintouch'>
+      <div className='whywe-getintouch'>
         <Getintouch />
-      </div> */}
+      </div>
 
 
 

@@ -15,9 +15,9 @@ import Accordion from 'react-bootstrap/Accordion';
 
 const Getintouch = () => {
     return (
-        <div className='Getintouch'>
+        <div className='Getintouch' id='Getintouch'>
 
-            <Row>
+            <Row className='Getintouch-row'>
 
                 <Col lg="6" md="6" sm="4">
                     <div className='Getintouch-left-content'>
@@ -28,29 +28,25 @@ const Getintouch = () => {
                         <Link to={'https://www.instagram.com/ratix_infotech?igsh=Y2dtZWJ1djlqYTQ2&utm_source=qr'} target='_blank'> <img src={whatsapp} alt='sample' className='socialmedia-img' data-aos="zoom-in-down" data-aos-duration="1500" /></Link>
                         {/* <Link to={'https://www.instagram.com/ratix_infotech?igsh=Y2dtZWJ1djlqYTQ2&utm_source=qr'} target='_blank'> <img src={facebook} alt='sample' className='socialmedia-img' data-aos="zoom-in-down" data-aos-duration="2000" /></Link><br /> */}
                         <Link to={'https://www.linkedin.com/company/ratix/'} target='_blank'> <img src={linkedin} alt='sample' className='socialmedia-img' data-aos="zoom-in-down" data-aos-duration="2500" /></Link>
-                        {/* <Link to={'https://twitter.com/rahulriyaz_'} target='_blank'>  <img src={xlogo} alt='sample' className='socialmedia-img' data-aos="zoom-in-down" data-aos-duration="3000" /></Link> */}
+
                         <Form className='Contactusform'   >
                             {/* <p className='contactform-title'>Contact Us</p> */}
 
 
                             <Form.Group className="mb-3" controlId="formBasicPassword">
-                                {/* <Form.Label>Name</Form.Label> */}
                                 <Form.Control type="text" placeholder="Enter your name" />
                             </Form.Group>
 
                             <Form.Group className="mb-3" controlId="formBasicEmail">
-                                {/* <Form.Label>Email address</Form.Label> */}
                                 <Form.Control type="email" placeholder="Enter your email" />
                             </Form.Group>
 
 
                             <Form.Group className="mb-3" controlId="formBasicPassword">
-                                {/* <Form.Label>Mobile Number</Form.Label> */}
                                 <Form.Control type="text" placeholder="Enter your number" />
 
                             </Form.Group>
                             <Form.Group className="mb-3">
-                                {/* <Form.Label>Reason for Contacting</Form.Label> */}
                                 <Form.Select aria-label="Default select example">
                                     <option>Select Reason for Contacting</option>
                                     <option value="1">Manuscript Submission</option>
@@ -65,14 +61,13 @@ const Getintouch = () => {
                                 Submit
                             </Button></a>
                         </Form>
-
                     </div>
                 </Col>
 
+
                 <Col lg="6" md="6" sm="4">
-             
                     <div className='Faqcontent'>
-                    <h2>Frequently asked questions</h2>
+                        <h2>Frequently asked questions</h2>
                         <Accordion defaultActiveKey="0">
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header >What genres does Ritera Focuses on?</Accordion.Header>

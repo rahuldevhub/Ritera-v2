@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react'
-import Header from '../Components/header/Header'
+// import Header from '../Components/header/Header'
 import '../css/customizedpage.css'
 import { Row, Col } from 'react-bootstrap'
 import Getintouch from '../Components/Getintouch'
@@ -10,7 +10,7 @@ const Customized = () => {
   }, []);
   return (
     <div className='Customized' id='Customized'>
-          <Header />
+          {/* <Header /> */}
 
       <div className='customized-bgimg'>
         <div className='customized-blackdrop'>
@@ -150,9 +150,9 @@ const Customized = () => {
       </div>
       </div>
 
-      {/* <div className='customized-getintouch'>
+      <div className='customized-getintouch'>
         <Getintouch/>
-      </div> */}
+      </div>
 
     </div>
   )

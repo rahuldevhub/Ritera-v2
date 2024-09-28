@@ -42,7 +42,7 @@
 @media only screen and (max-width: 992px) {
     .landingpage-bgimg {
         object-fit: cover;
-        background-position: initial;
+        background-position: bottom;
         background-size: cover;
     }
 

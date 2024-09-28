@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react'
 import '../css/landingpage.css'
-import Header from '../Components/header/Header'
+// import Header from '../Components/header/Header'
 import Serviceswiper from '../Components/swiper/Serviceswiper'
 import { Row, Col } from 'react-bootstrap'
 import whywebg from '../Assets/landingpagewhywe.jpg'
@@ -18,7 +18,7 @@ const Landingpage = () => {
 
       <div className='landingpage-bgimg'>
         <div className='landingpage-blackdrop' >
-          <Header />
+          {/* <Header /> */}
           <div className='landing-content'>
             <p className='landing-title'>Empower your story <br /> Self Publish with confidence</p>
             <p className='landing-subtitle'>At Ritera, We're passionate about transforming ideas <br /> into stories and visions into masterpiece</p>
@@ -154,9 +154,9 @@ const Landingpage = () => {
         </Row>
       </div>
 
-      {/* <div className='landingpage-getintouch'>
+      <div className='landingpage-getintouch'>
         <Getintouch />
-      </div> */}
+      </div>
 
 
 

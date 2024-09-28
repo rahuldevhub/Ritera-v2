@@ -14,7 +14,7 @@ import Header from './Components/header/Header';
 function App() {
   return (
     <div>
-
+<Header/>
 <BrowserRouter>
 <Routes>
 

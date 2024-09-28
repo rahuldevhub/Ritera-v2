@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card';
 import prooficon from '../Assets/study.png'
 import { Link } from 'react-router-dom';
-import Header from '../Components/header/Header'
+// import Header from '../Components/header/Header'
 import sideimg from '../Assets/landingpagewhywe.jpg'
 import Getintouch from '../Components/Getintouch';
 import { useMediaQuery } from 'react-responsive';
@@ -26,7 +26,7 @@ const Pplbehind = () => {
   }, []);
   return (
     <div className='Pplbehind' id='Pplbehind'>
-          <Header />
+          {/* <Header /> */}
 
       <div className='Pplbehind-bgimg'>
         <div className='Pplbehind-blackdrop'>
