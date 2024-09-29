@@ -164,10 +164,10 @@ const Customized = () => {
 
         </div>
       </div>
-
+{/* 
       <div className='customized-getintouch'>
         <Getintouch />
-      </div>
+      </div> */}
 
     </div>
   )
