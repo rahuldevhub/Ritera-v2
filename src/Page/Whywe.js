@@ -137,7 +137,7 @@ const Whywe = () => {
           </Col>
 
           <Col lg="12" md='6' sm="4" className=' whywe-hookredirect-button'>
-            <Link to={'/careers'}><button>Explore</button></Link>
+            <Link to={'/packages'}><button>Explore</button></Link>
           </Col  >
         </Row>
       </div>

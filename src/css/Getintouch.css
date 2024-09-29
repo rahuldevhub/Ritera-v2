@@ -47,11 +47,21 @@
     color: white;
     text-decoration: none;
     background-color: #6A1B1B;
+    border-color: #6A1B1B;
     text-align: center;
     font-size: 1rem;
     border-radius: .5rem;
     width: 100%;
     height: 3rem;
+}
+.contactus:hover {
+    background-color: #a32525;
+    border-color: #a32525;
+}
+
+.contactus:active {
+    background-color: #a32525;
+    border-color: #a32525;
 }
 
 .contactform-title {
@@ -78,14 +88,14 @@
 
 @media only screen and (max-width: 992px) {
     .Getintouch {
-        margin-left: .5rem;
-        margin-right: .5rem;
+        margin-left: .1rem;
+        margin-right: .1rem;
         padding-bottom: .5rem;
     
     }
     .Getintouch-row {
-        margin-left: .5rem;
-        margin-right: .5rem;
+        margin-left: .1rem;
+        margin-right: .1rem;
         padding-bottom: 3rem;
     
     }
@@ -100,7 +110,7 @@
     }
     .socialmedia-img {
         height: 5rem;
-        width: 7rem;
+        width: 6.9rem;
     }
     
     .Contactusform {

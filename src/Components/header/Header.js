@@ -7,6 +7,7 @@ import logo from '../../Assets/logo.webp'
 
 const Header = () => {
   return (
+    
     <Navbar collapseOnSelect expand="lg" sticky="top" className="bg-body-tertiary navbar-just  color">
       <Container className='container '>
         <Navbar.Brand href="/" className='Brandlogo'>

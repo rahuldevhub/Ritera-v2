@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import '../css/packagepage.css'
 // import Header from '../Components/header/Header'
 import Row from 'react-bootstrap/Row';
@@ -6,6 +6,9 @@ import Card from 'react-bootstrap/Card';
 import Getintouch from '../Components/Getintouch';
 
 const Packages = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className='Packages' id='Packages'>
 

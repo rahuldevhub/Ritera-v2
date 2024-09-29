@@ -2,7 +2,7 @@
 
     background: #000;
     background-image: url("../Assets/image.jpg");
-    background-position: initial;
+    background-position: bottom;
     background-size: cover;
 }
 
@@ -20,7 +20,7 @@
     font-family: "Merriweather", serif;
     font-weight: 400;
     color: white;
-    padding-top: 10rem;
+    padding-top: 12rem;
 }
 
 .landing-subtitle {
@@ -33,7 +33,7 @@
     background-color: #6A1B1B;
     color: white;
     border: none;
-    border-radius: 1rem;
+    border-radius: .5rem;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 15rem;
@@ -107,7 +107,7 @@
     background-color: #6A1B1B;
     color: white;
     border: none;
-    border-radius: 1rem;
+    border-radius: .5rem;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 15rem;
@@ -285,7 +285,7 @@
 }
 
 .landingpage-customizedroyalty p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding-bottom: 2rem;
     text-align: center;
     font-family: "Teachers", sans-serif;
@@ -295,7 +295,7 @@
     background-color: #6A1B1B;
     color: white;
     border: none;
-    border-radius: 1rem;
+    border-radius: .5rem;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 15rem;
@@ -457,7 +457,7 @@
     background-color: #6A1B1B;
     color: white;
     border: none;
-    border-radius: 1rem;
+    border-radius: .5rem;
     padding-top: 10px;
     padding-bottom: 10px;
     width: 15rem;

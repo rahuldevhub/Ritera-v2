@@ -10,6 +10,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
+import Popupcontactus from '../Popupcontactus';
 
 const Basicpackage = () => {
     const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 992px)' })
@@ -39,7 +40,8 @@ const Basicpackage = () => {
                                     <li>Post Publishing Support </li>
                                     <li>60% Royalty for Author</li>
                                 </ul>
-                                <button className='seeallpackages'>See all Features</button>
+                                <Popupcontactus/>
+                                {/* <button className='seeallpackages'>Choose</button> */}
                                 </Card.Body>
                         </Card>
 
@@ -60,7 +62,8 @@ const Basicpackage = () => {
                                             <li>Publishing Plan</li>
                                             <li>Digital Proof</li>
                                     </ul>
-                                  <button className='seeallpackages'>See all Features</button>
+                                    <Popupcontactus/>
+                                  {/* <button className='seeallpackages'>See all Features</button> */}
 
                                 </div>
                             </Card.Body>
@@ -86,7 +89,8 @@ const Basicpackage = () => {
                                             <li>Free Author Session</li>
                                             <li>Beta Reading</li>
                                     </ul>
-                                    <button className='seeallpackages'>See all Features</button>
+                                    <Popupcontactus/>
+                                    {/* <button className='seeallpackages'>See all Features</button> */}
                                 </div>
                             </Card.Body>
                         </Card>
@@ -130,6 +134,7 @@ const Basicpackage = () => {
                                     <li>Post Publishing Support </li>
                                     <li>60% Royalty for Author</li>
                                         </ul>
+                                        <Popupcontactus/>
                                         {/* <Link to={'/packages'}><button className='seeallpackages'>See all Features</button></Link> */}
                                     </Card.Body>
                                 </Card></SwiperSlide>
@@ -153,6 +158,7 @@ const Basicpackage = () => {
                                             <li>Digital Proof</li>
 
                                             </ul>
+                                            <Popupcontactus/>
                                             {/* <Link to={'/packages'}><button className='seeallpackages'>See all Features</button></Link> */}
 
 
@@ -184,6 +190,7 @@ const Basicpackage = () => {
                                             <li>Free Author Session</li>
                                             <li>Beta Reading</li>
                                             </ul>
+                                            <Popupcontactus/>
                                             {/* <Link to={'/packages'}><button className='seeallpackages'>See all Features</button></Link> */}
                                         </div>
                                     </Card.Body>

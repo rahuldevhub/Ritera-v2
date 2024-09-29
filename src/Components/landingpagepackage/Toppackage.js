@@ -2,7 +2,6 @@ import React, { useRef, useState } from 'react';
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import './basictopstyle.css'
-// import Popupcontactus from '../popup/Popupcontactus';
 import { Link } from 'react-router-dom';
 import MediaQuery, { useMediaQuery } from "react-responsive";
 
@@ -10,6 +9,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper/modules';
+import Popupcontactus from '../Popupcontactus';
 const Toppackage = () => {
   const isDesktopOrLaptop = useMediaQuery({ query: '(min-width: 992px)' })
   const isTaborMobile = useMediaQuery({ query: '(max-width: 992px)' })
@@ -28,7 +28,6 @@ const Toppackage = () => {
                                         listing..</p> */}
                                     <p className='level1-Price'>₹49,999</p>
 
-                                    {/* <Popupcontactus /> */}
 
                                 </div>
                                 <ul className='package-features'>
@@ -44,6 +43,7 @@ const Toppackage = () => {
                                     <li>Book Reviews</li>
 
                                 </ul>
+                                <Popupcontactus/>
                                 {/* <Link to={'/packages'}><button className='seeallpackages'>See all Features</button></Link> */}
 
 
@@ -76,6 +76,7 @@ const Toppackage = () => {
                                         <li>Author Video</li>
 
                                     </ul>
+                                    <Popupcontactus/>
                                     {/* <Link to={'/packages'}><button className='seeallpackages'>See all Features</button></Link> */}
 
                                 </div>
@@ -110,7 +111,7 @@ const Toppackage = () => {
                                         <li>Publishing Event Handling</li>
 
                                     </ul>
-
+                                    <Popupcontactus/>
                                     {/* <Link to={'/packages'}><button className='seeallpackages'>See all Features</button></Link> */}
 
                                 </div>
@@ -164,6 +165,7 @@ const Toppackage = () => {
 
 
                                     </ul>
+                                    <Popupcontactus/>
                                     {/* <Link to={'/packages'}><button className='seeallpackages'>See all Features</button></Link> */}
 
 
@@ -196,6 +198,7 @@ const Toppackage = () => {
                                         <li>Author Video</li>
 
                                         </ul>
+                                        <Popupcontactus/>
                                         {/* <Link to={'/packages'}><button className='seeallpackages'>See all Features</button></Link> */}
 
                                     </div>
@@ -231,7 +234,7 @@ const Toppackage = () => {
                                         <li>Publishing Event Handling</li>
 
                                         </ul>
-
+                                        <Popupcontactus/>
                                         {/* <Link to={'/packages'}><button className='seeallpackages'>See all Features</button></Link> */}
 
                                     </div>
