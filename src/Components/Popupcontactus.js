@@ -17,16 +17,28 @@ const Popupcontactus = () => {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton className='contactheader-bg'>
-          <Modal.Title>Contact Us</Modal.Title>
+          <Modal.Title>Thanks for choosing</Modal.Title>
         </Modal.Header>
+
         <Modal.Body className='contactbody-bg'>
           <Form>
+
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Name</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Enter your name"
+                autoFocus
+              />
+
+            </Form.Group>
+
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Email address</Form.Label>
               <Form.Control
                 type="email"
                 placeholder="name@example.com"
-                autoFocus
+              
               />
 
             </Form.Group>
@@ -36,7 +48,7 @@ const Popupcontactus = () => {
               <Form.Control
                 type="number"
                 placeholder="Enter your number"
-                autoFocus
+              
               />
             </Form.Group>
 

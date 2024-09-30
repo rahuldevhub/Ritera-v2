@@ -32,8 +32,8 @@ const Toppackage = () => {
                                 </div>
                                 <ul className='package-features'>
                                 <li>All service in previous</li>
-                                    <li>Advance Cover Design</li>
-                                    <li>Advance Interior Design</li>
+                                    <li>Advanced Cover Design</li>
+                                    <li>Advanced Interior Design</li>
                                     <li>International PaperBack Distribution</li>
                                     <li>E-Book Placement</li>
                                     <li>Amazon A+ listing</li>
@@ -66,7 +66,7 @@ const Toppackage = () => {
                                     <li>All service in previous</li>
                                         <li>Complimentry Proof reading or Copy editing</li>
                                         <li>Customized Cover Design</li>
-                                        <li>Advance interior Design</li>
+                                        <li>Advanced interior Design</li>
                                         <li>International Paperback distribution</li>
                                         <li>E-Book Placement</li>
                                         <li>Kindle Promotion</li>
@@ -91,7 +91,7 @@ const Toppackage = () => {
                                     {/* <p className='level1-description'>Elite services including developmental editing,
                                         Proofreading & Copy editing, marketing support, Print
                                         media promotions and etc for seasoned authors.</p> */}
-                                    <p className='level1-Price'>₹1,18,999</p>
+                                    <p className='level1-Price'>₹1,19,999</p>
 
                                     {/* <Popupcontactus /> */}
 
@@ -153,8 +153,8 @@ const Toppackage = () => {
                                     <ul className='package-features'>
                                     <li>All service in previous</li>
                                     <li>All service in previous</li>
-                                    <li>Advance Cover Design</li>
-                                    <li>Advance Interior Design</li>
+                                    <li>Advanced Cover Design</li>
+                                    <li>Advanced Interior Design</li>
                                     <li>International PaperBack Distribution</li>
                                     <li>E-Book Placement</li>
                                     <li>Amazon A+ listing</li>
@@ -188,7 +188,7 @@ const Toppackage = () => {
                                         <li>All service in previous</li>
                                         <li>Complimentry Proof reading or Copy editing</li>
                                         <li>Customized Cover Design</li>
-                                        <li>Advance interior Design</li>
+                                        <li>Advanced interior Design</li>
                                         <li>International Paperback distribution</li>
                                         <li>E-Book Placement</li>
                                         <li>Kindle Promotion</li>
@@ -213,19 +213,19 @@ const Toppackage = () => {
                                         {/* <p className='level1-description'>Elite services including developmental editing,
                                             Proofreading & Copy editing, marketing support, Print
                                             media promotions and etc for seasoned authors.</p> */}
-                                        <p className='level1-Price'>₹1,18,999</p>
+                                        <p className='level1-Price'>₹1,19,999</p>
 
                                         {/* <Popupcontactus /> */}
 
 
                                         <ul className='package-features'>
                                         <li>Personal Publishing Manager</li>
-                                        <li>Proff Reading (40k words)</li>
+                                        <li>Proof Reading (40k words)</li>
                                         <li>Copy Editing (15k words)</li>
                                         <li>Customized Cover Design</li>
                                         <li>International Paperback distribution</li>
                                         <li>E-book Placements</li>
-                                        <li>Author Vedio on website</li>
+                                        <li>Author Video on website</li>
                                         <li>Kindle Promotion</li>
                                         <li>Print media Promotion</li>
                                         <li>Social Media Promotion (Pre and Post Publishing)</li>

@@ -22,7 +22,7 @@ const Customized = () => {
 
       <div className='customized-content-bg'>
         <div className='customized-content'>
-          <div className='customized-subcontent-description'>Upon submitting your preferences, our marketing specialist will present you with a tailored package, detailing its pricing and benefits.</div>
+          <div className='customized-subcontent-description'>Have your own designer or editor? No problem! You can tailor your package by choosing the services you need. Once you submit your requirements, our consultant will reach out to discuss them with you. We’ll then provide a customized package fee, based on your selections.</div>
 
           <Row>
             <Col lg="6" md="6" sm="1" className='customized-col'>
@@ -34,8 +34,9 @@ const Customized = () => {
                 <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
                   {/* <option selected>Standard</option> */}
                   <option value="1">Standard</option>
-                  <option value="2">Premium</option>
-                  <option value="3">Advance</option>
+                  <option value="2">Advanced</option>
+
+                  <option value="3">Premium</option>
                 </select><br />
 
 
@@ -43,8 +44,8 @@ const Customized = () => {
                 <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
                   {/* <option selected>Standard</option> */}
                   <option value="1">Standard</option>
-                  <option value="2">Premium</option>
-                  <option value="3">Advance</option>
+                  <option value="2">Advanced</option>
+                  <option value="3">Premium</option>
 
                 </select><br />
 
@@ -52,21 +53,25 @@ const Customized = () => {
                 <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
                   {/* <option selected>Standard</option> */}
                   <option value="1">No Needed</option>
-                  <option value="2">Need</option>
+                  <option value="2">Below 10k words</option>
+                  <option value="3">Below 25k words</option>
+                  <option value="4">More than 40k words</option>
                 </select><br />
 
                 <label class="my-1 mr-2" for="inlineFormCustomSelectPref" className='customized-option-name'>Proof Reading</label>
                 <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
                   {/* <option selected>Standard</option> */}
                   <option value="1">No Needed</option>
-                  <option value="2">Need</option>
+                  <option value="2">Below 10k words</option>
+                  <option value="3">Below 25k words</option>
+                  <option value="4">More than 40k words</option>
                 </select><br />
 
                 <label class="my-1 mr-2" for="inlineFormCustomSelectPref" className='customized-option-name'>Copy Writing</label>
                 <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
                   {/* <option selected>Standard</option> */}
-                  <option value="1">No Needed</option>
-                  <option value="2">Need</option>
+                  <option value="1">No</option>
+                  <option value="2">Yes</option>
                 </select><br />
 
 
@@ -97,8 +102,8 @@ const Customized = () => {
                 <label class="my-1 mr-2" for="inlineFormCustomSelectPref" className='customized-option-name'>Audio Book</label>
                 <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
                   {/* <option selected>Standard</option> */}
-                  <option value="1">No Needed</option>
-                  <option value="2">Need</option>
+                  <option value="1">No</option>
+                  <option value="2">Yes</option>
                 </select><br />
               </form>
             </Col>
@@ -157,6 +162,10 @@ const Customized = () => {
 
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Control type="email" placeholder="Enter your email" />
+            </Form.Group>
+
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Control type="number" placeholder="Enter your number" />
             </Form.Group>
 
           </Form>

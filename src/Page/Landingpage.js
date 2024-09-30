@@ -74,8 +74,8 @@ const Landingpage = () => {
 <div className='landingpage-col-centering'>
               <div className='landingpage-customizedroyalty-blackdrop'>
                 <div className='landingpage-customizedroyalty-insidecontent'>
-                  <h2>Customized your own Package</h2>
-                  <p> Customize your package by choosing the options that meet your needs. </p>
+                  <h2>Customizeable Package</h2>
+                  <p> Upon submitting your preferences, our marketing specialist will present you with a tailored package, detailing its pricing and benefits. </p>
                   <Link to={'/customize-package'}><button className='landingpage-customizedroyalty-button'> Learn more</button></Link>
                 </div>
               </div>
@@ -143,7 +143,7 @@ const Landingpage = () => {
       <div className='landingpage-hookredirect'>
         <Row className='landingpage-hookredirect-content'>
           <Col lg="12" md='6' sm="4" >
-            <p>The People Behind Ritera Publishing</p>
+            <p>People Behind Ritera Publishing</p>
           </Col>
 
           <Col lg="12" md='6' sm="4" className=' landingpage-hookredirect-buttoncol'>

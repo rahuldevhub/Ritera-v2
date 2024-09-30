@@ -99,7 +99,7 @@ const Serviceswiper = () => {
                                 <div className='service-card-content'>
                                     <img src={International} className='service-card-icon'></img>
                                     <h3 className='service-card-title'>International </h3>
-                                    <p className='service-card-description'>     By partnering with global distributors, Ritera guarantees that your book reaches retailers, distributors, and libraries worldwide</p>
+                                    <p className='service-card-description'>     By partnering with global distributors, Ritera guarantees that your book reaches retailers, distributors, and libraries worldwide.</p>
                                 </div>
                             </Card.Body>
                         </Card>

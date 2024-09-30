@@ -48,7 +48,7 @@ const Pplbehind = () => {
               <p className='Pplbehind-subcontent-title'>Rahul</p>
               <p className='Pplbehind-subcontent-subtitle'>Co-Founder & CTO</p>
               <p className='Pplbehind-subcontent-description'>
-              Mr. Rahul, the esteemed co-founder of Ratix Info Tech, brings extensive global client experience to the table. Ratix Info Tech has now formed a strategic alliance with Ritera Publishing to offer seamless support to authors and streamline workflow management. With a highly skilled design and editing team, Ritera Publication &  Rahul and his Ratix Info Tech ensure that your works receive the finest designs.
+              Mr. Rahul, the esteemed co-founder of Ratix Info Tech, brings extensive global client experience to the table. Ratix Info Tech has now formed a strategic alliance with Ritera Publishing to offer seamless support to authors and streamline workflow management. With a highly skilled design and editing team, Ritera Publication &  Rahul and his Ratix Info Tech ensures that your work receives the finest designs.
               </p>
             </Col>
           </Row>
@@ -134,7 +134,9 @@ const Pplbehind = () => {
                 <div className='card-content'>
                   <img src={prooficon} className='team-card-icon'></img>
                   <p className='team-card-title'>Marketing Team </p>
-                  <p className='team-card-description'>Essential services with standard cover and interior designs,and eBook formatting for budding authors /Online distribution in India stores.</p>
+                  <p className='team-card-description'>
+                  The talented marketing minds at Ritera are dedicated to maximizing the reach and growth of books. They excel in both traditional and digital marketing, constantly experimenting with new strategies and applying proven success formulas to benefit authors and their works.
+                  </p>
                 </div>
               </Card.Body>
             </Card>
@@ -144,7 +146,9 @@ const Pplbehind = () => {
                 <div className='card-content'>
                   <img src={prooficon} className='team-card-icon'></img>
                   <p className='team-card-title'>Support Team </p>
-                  <p className='team-card-description'>Essential services with standard cover and interior designs,and eBook formatting for budding authors /Online distribution in India stores.</p>
+                  <p className='team-card-description'>
+                  Ritera provides seamless support to authors via email, Whats App, and phone calls, both before and after publishing. Our dedicated team is always available to assist with any queries or concerns, ensuring a smooth and stress-free experience for authors at every stage of their publishing journey
+                  </p>
                 </div>
               </Card.Body>
             </Card>
@@ -154,7 +158,9 @@ const Pplbehind = () => {
                 <div className='card-content'>
                   <img src={prooficon} className='team-card-icon'></img>
                   <p className='team-card-title'>Writing Team </p>
-                  <p className='team-card-description'>Essential services with standard cover and interior designs,and eBook formatting for budding authors /Online distribution in India stores.</p>
+                  <p className='team-card-description'>
+                  We take proactive steps by conducting seminars and virtual meetings between talented authors and our writing team. This team captures the literary visions of authors and applies them to every book they work on, ensuring the best version of each book is brought to life.
+                  </p>
                 </div>
               </Card.Body>
             </Card>
@@ -182,7 +188,9 @@ const Pplbehind = () => {
                 <div className='card-content'>
                   <img src={prooficon} className='team-card-icon'></img>
                   <p className='team-card-title'>Marketing Team </p>
-                  <p className='team-card-description'>Essential services with standard cover and interior designs,and eBook formatting for budding authors /Online distribution in India stores.</p>
+                  <p className='team-card-description'>
+                  The talented marketing minds at Ritera are dedicated to maximizing the reach and growth of books. They excel in both traditional and digital marketing, constantly experimenting with new strategies and applying proven success formulas to benefit authors and their works.
+                  </p>
                 </div>
               </Card.Body>
             </Card>
@@ -194,7 +202,9 @@ const Pplbehind = () => {
                 <div className='card-content'>
                   <img src={prooficon} className='team-card-icon'></img>
                   <p className='team-card-title'>Support Team </p>
-                  <p className='team-card-description'>Essential services with standard cover and interior designs,and eBook formatting for budding authors /Online distribution in India stores.</p>
+                  <p className='team-card-description'>
+                  Ritera provides seamless support to authors via email, Whats App, and phone calls, both before and after publishing. Our dedicated team is always available to assist with any queries or concerns, ensuring a smooth and stress-free experience for authors at every stage of their publishing journey
+                  </p>
                 </div>
               </Card.Body>
             </Card>
@@ -206,7 +216,9 @@ const Pplbehind = () => {
                 <div className='card-content'>
                   <img src={prooficon} className='team-card-icon'></img>
                   <p className='team-card-title'>Writing Team </p>
-                  <p className='team-card-description'>Essential services with standard cover and interior designs,and eBook formatting for budding authors /Online distribution in India stores.</p>
+                  <p className='team-card-description'>
+                  We take proactive steps by conducting seminars and virtual meetings between talented authors and our writing team. This team captures the literary visions of authors and applies them to every book they work on, ensuring the best version of each book is brought to life.
+                  </p>
                 </div>
               </Card.Body>
             </Card>

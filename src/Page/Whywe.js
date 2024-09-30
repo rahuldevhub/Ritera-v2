@@ -29,7 +29,7 @@ const Whywe = () => {
       <div className='whywe-content'>
 
         <div>
-          <p className='whywe-subcontent-title'>GET YOUR BOOK ERROR-FREE—FOR FREE!</p>
+          <p className='whywe-subcontent-title'>KEEP YOUR BOOK ERROR FREE—FOR FREE!</p>
           <Row className='whywe-subcontent-row'>
             <Col lg="6" md="6" sm="1">
               <img src={whywe1} className='whywe-subcontent-img'></img>
@@ -61,7 +61,7 @@ const Whywe = () => {
         </div>
 
         <div>
-          <p className='whywe-subcontent-title'>TRADITIONAL IS SENSATIONAL!</p>
+          <p className='whywe-subcontent-title'>TRADITIONAL IS SENSATIONAL</p>
           <Row className='whywe-subcontent-row'>
             <Col lg="6" md="6" sm="1">
               <img src={whywe3} className='whywe-subcontent-img'></img>
@@ -76,7 +76,7 @@ const Whywe = () => {
         </div>
 
         <div>
-          <p className='whywe-subcontent-title'>DIGITAL IS GENERATIONAL!</p>
+          <p className='whywe-subcontent-title'>DIGITAL IS GENERATIONAL</p>
           <Row className='whywe-subcontent-row'>
             <Col lg="6" md="6" sm="1" >
               <img src={whywe4} className='whywe-subcontent-img'></img>
@@ -98,7 +98,7 @@ const Whywe = () => {
 
             </Col>
             <Col lg="6" md="6" sm="1" className='whywe-subcontent-col2'>
-              <p className='whywe-subcontent-description'>With each time you publish with us, we'll make you feel special with the author copies.  "No more clues—just anticipation". When you finally hold those copies in your hands, a special surprise awaits, unlike anything other publications offer</p>
+              <p className='whywe-subcontent-description'>With each time you publish with us, we'll make you feel special with the author copies.  "No more clues—just anticipation". When you finally hold those copies in your hands, a special surprise awaits, unlike anything other publications offer.</p>
             </Col>
           </Row>
 
@@ -113,7 +113,7 @@ const Whywe = () => {
 
             </Col>
             <Col lg="6" md="6" sm="1" className='whywe-subcontent-col2'>
-              <p className='whywe-subcontent-description'>Stuck in a writer's block? Doubting your manuscript? Fear not! Ritera’s got your back with "Author Sessions!"  Picture this: A virtual head to head with a seasoned author who’s battled the same struggles. Whether it’s plot twists, character development, or that pesky writer’s block, we’ve got answers.
+              <p className='whywe-subcontent-description'>Stuck in a writer's block? Doubting your manuscript? Fear not! Ritera’s got your back with "Author Sessions!"  Picture this: A virtual head to head with a seasoned author who’s battled the same struggles. Whether it’s plot a twists, character development, or that pesky writer’s block, we’ve got answers.
                 Ritera is the only self publishing house that exclusively offers "Author sessions" to bring the best version of your book. And sooner or later, we wish to see you in our team of specialized authors.
               </p>
             </Col>
